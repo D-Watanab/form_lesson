@@ -1,1 +1,271 @@
 @charset "utf-8";
+body{
+  font-family: 'PT Sans', Helvetica, Arial,'Kozuka Gothic std', sans-serif;
+}
+.form{
+  background-color: #f2f6f7;
+  width: 100%;
+  padding: 32px 0;
+}
+.wrapper{
+  width: 640px;
+  margin: 0 auto;
+
+}
+.mainbox{
+  background-color: #fff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, .18);
+  border-radius: 4px;
+  padding: 48px 64px;
+  margin-bottom: 32px;
+}
+
+.account{
+  color: #545658;
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.fbggr{
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.bot{
+  width: 100%;
+  padding: 13px;
+  font-size: 13px;
+  transition: 0.3s;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 500;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 500;
+  border: 1px solid #d9d9d9;
+}
+.half{
+  width: 50%;
+}
+
+
+.facebook{
+  color: #fff;
+  background-color: #3b5999;
+}
+.facebook:hover{
+  background-color: #344e87;
+  border-color: transparent;
+}
+
+.google{
+  color: #dd4b39;
+  margin-left: 8px;
+}
+.google:hover{
+  background-color: #f7f7f7;
+}
+
+.whitefont{
+  color: #949697;
+  font-size: 12px;
+  text-align: center;
+}
+.info{
+  margin: 20px 0;
+  position: relative;
+  
+
+}
+.info::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 1px;
+  background-color: #ececec;
+}
+.accinfo{
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+  padding: 0 10px;
+}
+
+.namebox{
+  display: flex;
+}
+.namae{
+  display: block;
+}
+
+.label{
+  font-size: 12px;
+  color: #545658;
+}
+
+.come{
+  color: #dd4b39;
+}
+
+.common{
+  margin-bottom: 20px;
+}
+.space{
+  margin-bottom: 5px;
+}
+
+
+.area{
+  width: 100%;
+  padding: 5px;
+  font-size: 13px;
+  border-radius: 3px;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  height: 36px;
+  line-height: 2;
+  box-sizing: border-box;
+  color: #545658;
+  outline: none;
+}
+.trans:checked{
+  background: transparent;
+}
+.firstname{
+  margin-left: 16px;
+}
+.gender-inp{
+  display: none;
+}
+
+.gender{
+  margin-left: 15px;
+  cursor: pointer;
+}
+.gender:first-child{
+  margin-left: 0;
+}
+.gender span{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+.gender span::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  transform: translateY(-50%);
+}
+.gender-inp:checked + span::after{
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #01bfbd;
+  transform: translateY(-50%);
+}
+.select-pref{
+  position: relative;
+}
+.pref{
+  -webkit-appearance: none;
+}
+.select-pref::after{
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 45%;
+  transform: rotate(45deg);
+  height: 5px;
+  width: 5px;
+  border-right: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.trans:focus{
+  background: transparent;
+  border-color: rgba(59, 133, 133, .4);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);
+}
+
+.course{
+  margin-bottom: 10px;
+}
+.choose{
+  display: none;
+}
+
+.select{
+  position: relative;
+  padding-left: 25px;
+}
+.select::before{
+  content: "";
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  left: 0;
+  top: 50%;
+  border: 1px solid #d9d9d9;
+  margin-top: -8px;
+}
+
+.course input:checked + .select::after{
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 8px;
+  transform: rotate(45deg);
+  border-right: 3px solid #01bfbd;
+  border-bottom: 3px solid #01bfbd;
+  left: 6px;
+  top: 50%;
+  margin-top: -12px;
+}
+
+.misc{
+  height: 100px;
+  resize: none;
+}
+
+.create{
+  background-color: #01bfbd;
+  color: #fff;
+  padding: 13px;
+}
+.create:hover{
+  background-color: #01a6a4;
+}
+.create:active{
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
+}
+.foot{
+  text-align: center;
+}
+.notice{
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.link{
+  color: #01a6a4;
+  text-decoration: none;
+}
+.bottom{
+  margin-bottom: 8px;
+}

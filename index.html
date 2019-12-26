@@ -8,8 +8,173 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
+    <section class="form">
+      <div class="wrapper">
+        <div class="mainbox">
+          <div class="account">
+            アカウント作成
+          </div>
+          <div class="fbggr">
+            <div class="fb half">
+              <a class="bot facebook" href="file:///Users/watanabedaishi/Desktop/html%20%E8%A9%A6%E4%BD%9C/Giztech/Form%20Lesson/index.html#">
+                Facebookでスタート
+              </a>
+            </div>
+            <div class="gg half">
+              <a class="bot google" href>
+                Googleでスタート
+              </a>
+            </div>
+          </div>
+
+            <p class="timeline whitefont">
+              タイムラインへ投稿を行うことや、アカウント情報を伝えることはありません。
+            </p>
+          <div class="info whitefont">
+            <p class="accinfo">
+              アカウント情報
+            </p>
+          </div>
+          <form method="POST" action="#" class="maininfo">
+            <div class="namebox">
+              <div class="name common half">
+                <p class="label namae space">
+                  名字
+                <span class="come">
+                  *
+                </span>
+                </p>
+
+                <input type="text" name="name" id="name" class="area trans" required>
+              </div>
+              <div class="firstname common half">
+                <p class="label namae space">
+                  名前
+                <span class="come">
+                  *
+                </span>
+                </p>
+                <input type="text" name="name" id="name" class="area trans" required>
+              </div>
+            </div>
+            <div class="seibetsu common">
+              <p class="label space">
+                性別
+              </p>
+              <div class="selection common">
+                <label class="gender" for="男性">
+                  <input type="radio" name="sex" value="男性" id="男性" class="gender-inp"> 
+                  <span>男性</span>
+                </label>
+                <label class="gender" for="女性">
+                  <input type="radio" name="sex" value="女性" id="女性" class="gender-inp">
+                  <span>女性</span>
+                </label>
+                <label class="gender" for="その他">
+                <input type="radio" name="sex" value="その他" id="その他" class="gender-inp">
+                  <span>その他</span>
+                </label>
+              </div>
+            </div>
+            <div class="Prefectures common half">
+              <p class="label space">
+                出身
+              </p>
+              <div class="select-pref">
+                <select name="pref" id="pref" class="area pref">
+                  <option value="00"></option>
+                  <option value="01">東京</option>
+                  <option value="02">千葉</option>
+                  <option value="03">埼玉</option>
+                  <option value="04">神奈川</option>
+                </select>
+              </div>
+            </div>
+            <div class="email common">
+              <p class="label space">
+                Eメール
+              <span class="come">
+                *
+              </span>
+              </p>
+              <input type="text" name="mail" id="mail" placeholder="ex) hoge@example.com" class="area trans" required>
+            </div>
+            <div class="phone common">
+              <p class="label space">
+                電話番号
+              </p>
+              <input type="text" name="number" id="number" placeholder="ex) 09012345678" class="area trans" required>
+            </div>
+            <div class="password common">
+              <p class="label space">
+                パスワード
+              <span class="come">
+                *
+              </span>
+              </p>
+
+              <input type="text" name="pass" id="pass" class="area trans" required>
+            </div>
+            <div class="password common">
+              <p class="label space">
+                パスワード(確認用)
+              <span class="come">
+                *
+              </span>
+              </p>
+              <input type="text" name="conf" id="conf" class="area trans" required>
+            </div>
+            <div class="course-select common">
+              <p class="label space">希望コース</p>
+              <div class="course">
+                <input type="checkbox" name="course" value="frontend" id="frontend" class="choose">
+                <label class="select" for="frontend">フロントエンド</label>
+              </div>
+              <div class="course">
+                <input type="checkbox" name="course" value="backend" id="backend" class="choose">
+                <label class="select" for="backend">バックエンド</label>
+              </div>
+              <div class="course">
+                <input type="checkbox" name="course" value="app" id="app" class="choose">
+                <label class="select" for="app">アプリ</label>
+              </div>
+            </div>
+            <div class="common">
+              <p class="label space">
+                備考
+              </p>
+              <textarea name="name" placeholder="何かあればご記入ください" class="area misc trans"></textarea>
+            </div>
+            <div class="common">
+              <input type="submit" name="create"  value="アカウント作成" class="bot create trans">
+            </div>
+            <p class="notice">
+              アカウントを作成することにより、
+              <a class="link" href>利用規約</a>と
+              <a class="link" href>プライバシーポリシー</a>
+              に同意するものとします。
+            </p>
+          </form>
+
+        </div>
+        <div class="foot">
+          <div class="notice bottom ">
+            <p class="log">
+              すでにアカウントをお持ちですか？
+              <a class="link" href>ログイン</a>
+            </p>
+          </div>
+          <div class="resend notice bottom ">
+            <a class="link" href>認証メールが届きませんか？</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
 
   </body>
 </html>
