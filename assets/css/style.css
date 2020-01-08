@@ -43,6 +43,7 @@ body{
   display: inline-block;
   font-weight: 500;
   border: 1px solid #d9d9d9;
+  cursor: pointer;
 }
 .half{
   width: 50%;
@@ -245,6 +246,8 @@ body{
   background-color: #01bfbd;
   color: #fff;
   padding: 13px;
+  outline: none;
+  border: none;
 }
 .create:hover{
   background-color: #01a6a4;
