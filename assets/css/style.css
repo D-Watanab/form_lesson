@@ -272,3 +272,12 @@
 .bottom{
   margin-bottom: 8px;
 }
+
+.hov:hover{
+  color: #01bfbd;
+}
+.und:hover{
+  color: #01bfbd;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
+}
